@@ -3,8 +3,8 @@ import Navigation from "./Navigation";
 function NavBar() {
   return (
     <div className="navContainer">
-      <NavLink to="/">
-        <h1 class>Nicholas Mirigliani</h1>
+      <NavLink className="headerNavLink" to="/">
+        <h1>Nicholas Mirigliani</h1>
       </NavLink>
       <Navigation />
     </div>

@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-function Art() {
+function Socials() {
   return (
     <div className="generalContainer">
       <div>
@@ -10,4 +10,4 @@ function Art() {
     </div>
   );
 }
-export default Art;
+export default Socials;
