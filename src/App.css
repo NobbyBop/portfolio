@@ -1,9 +1,40 @@
+/* DESKTOP (GENERAL) */
 body,
-html {
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Garamond", "Courier New", "Times New Roman", "serif";
+}
+
+/* LANDING */
+.landingContainer {
   margin: 0;
   padding: 0;
   height: 100%;
   display: grid;
   text-align: center;
   place-items: center;
+  gap: 5%;
+}
+
+/* NAVIGATION */
+.navContainer {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  text-align: center;
+  place-items: center;
+  gap: 5%;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navLink {
+  margin-right: 20px;
+}
+.navLink:last-child {
+  margin-right: 0;
 }
