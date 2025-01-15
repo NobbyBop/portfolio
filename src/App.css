@@ -18,9 +18,12 @@ html,
   place-items: center;
   gap: 5%;
 }
+.landingSubtitle {
+  text-decoration: italic;
+}
 
 /* HOME */
-.homeInnerContainer {
+.homeInnerContainer1 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -40,6 +43,15 @@ html,
 .homeImage {
   width: 20%;
   height: 20%;
+}
+.homeInnerContainer2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  padding-top: 3%;
 }
 /* NAVIGATION */
 .navContainer {
@@ -65,6 +77,9 @@ html,
 .active-navLink {
   margin-right: 20px;
   font-size: large;
+  color: blue;
+}
+a:visited {
   color: blue;
 }
 .navLink:visited,

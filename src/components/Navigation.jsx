@@ -20,12 +20,6 @@ function Navigation() {
       >
         Photography
       </NavLink>
-      <NavLink
-        to="/socials"
-        className={({ isActive }) => (isActive ? "active-navLink" : "navLink")}
-      >
-        Socials
-      </NavLink>
     </nav>
   );
 }

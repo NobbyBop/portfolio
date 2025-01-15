@@ -5,7 +5,7 @@ function Home() {
       <div>
         <NavBar />
       </div>
-      <div className="homeInnerContainer">
+      <div className="homeInnerContainer1">
         <div className="homeTextDiv">
           <h2>About</h2>
           <p className="homeText">
@@ -26,6 +26,12 @@ function Home() {
           </p>
         </div>
         <img className="homeImage" src="src\assets\images\me.JPEG" />
+      </div>
+      <div className="homeInnerContainer2">
+        <h2>Socials</h2>
+        <a href="https://www.youtube.com/@nobbybop">YouTube</a>
+        <a href="https://www.instagram.com/nick.mirig/">Instagram</a>
+        <a href="https://www.linkedin.com/in/nicholas-mirigliani/">LinkedIn</a>
       </div>
     </div>
   );

@@ -5,7 +5,6 @@ function Art() {
       <div>
         <NavBar />
       </div>
-      <hr />
       <p>Okay so...</p>
     </div>
   );
