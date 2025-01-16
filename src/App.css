@@ -41,26 +41,39 @@ html,
 .projectContainer {
   width: 100%;
   max-width: 40%;
+  padding-top: 3%;
   margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
 }
 
 .projectDiv {
+  border: solid 1.5px black;
+  padding-left: 2%;
+  padding-right: 2%;
   display: flex;
-  align-items: center;
+  align-items: left;
+  flex-direction: column;
   width: 100%;
-  padding-bottom: 3%;
-}
-
-.projectTextDiv {
-  flex: 1;
-  margin: 0;
-  font-size: large;
 }
 
 .projectImage {
   width: 100%;
-  max-width: 40%;
   height: auto;
+  border: solid 1.5px black;
+  margin-bottom: 5%;
+}
+.projectText,
+.projectDesc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1em;
+}
+.projectDesc {
+  height: 3em;
 }
 
 /* HOME */
@@ -76,7 +89,7 @@ html,
 .homeTextDiv {
   margin: 0;
   padding-right: 2%;
-  border-right: solid 1px black;
+  border-right: solid 1.5px black;
   max-width: 30%;
 }
 .homeText {
@@ -110,7 +123,7 @@ html,
   justify-content: space-between;
 }
 .navContainer {
-  border-bottom: solid 1px black;
+  border-bottom: solid 1.5px black;
   padding-bottom: 1%;
 }
 .navBarDiv {
