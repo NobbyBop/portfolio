@@ -25,7 +25,10 @@ function Home() {
             .
           </p>
         </div>
-        <img className="homeImage" src="/images/me.JPEG" />
+        <img
+          className="homeImage"
+          src={`${import.meta.env.BASE_URL}images/me.JPEG`}
+        />
       </div>
       <div className="homeInnerContainer2">
         <h2>Socials</h2>
