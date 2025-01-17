@@ -4,8 +4,10 @@ function Landing() {
   let subtitles = [
     "it's orange season...",
     "wilkomen, bienvenue, welcome.",
-    "drunk cigarettes don't count..?",
     "developer. artist. third thing.",
+    "wilkes-barre, pa has the world's best pizza.",
+    "oh hi.",
+    "son of a gun...",
   ];
   let subtitle = subtitles[Math.floor(Math.random() * subtitles.length)];
   return (

@@ -29,9 +29,21 @@ function Home() {
       </div>
       <div className="homeInnerContainer2">
         <h2>Socials</h2>
-        <a href="https://www.youtube.com/@nobbybop">YouTube</a>
-        <a href="https://www.instagram.com/nick.mirig/">Instagram</a>
-        <a href="https://www.linkedin.com/in/nicholas-mirigliani/">LinkedIn</a>
+        <a target="_blank" href="https://www.youtube.com/@nobbybop">
+          YouTube
+        </a>
+        <a target="_blank" href="https://www.instagram.com/nick.mirig/">
+          Instagram
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/nicholas-mirigliani/"
+        >
+          LinkedIn
+        </a>
+        <a target="_blank" href="https://github.com/NobbyBop">
+          GitHub
+        </a>
       </div>
     </div>
   );

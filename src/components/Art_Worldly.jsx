@@ -1,6 +1,6 @@
 import NavBar from "./NavBar";
 import InProgress from "./InProgress";
-function Photography() {
+function Art_Wordly() {
   return <InProgress />;
 }
-export default Photography;
+export default Art_Wordly;

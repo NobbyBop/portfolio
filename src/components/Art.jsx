@@ -3,19 +3,12 @@ import { NavLink } from "react-router-dom";
 function Art() {
   let projects = [
     {
-      id: 0,
-      title: "Sketchbook",
-      description: "Some of my favorite sketches, old and new.",
-      medium: "Ballpoint pen",
-      date: "2022-Present",
-      image: "src/assets/sketchbook/thumbnail.JPG",
-    },
-    {
       id: 1,
       title: "'On Comfort...'",
       description: "A series of drawings exploring the concept of comfort.",
       medium: "Ink",
       date: "2024",
+      link: "/art/comfort",
       image: "src/assets/comfort/thumbnail.JPG",
     },
     {
@@ -25,7 +18,17 @@ function Art() {
         "A zine about my experience with materialism, overconsumption, and identity.",
       medium: "Ballpoint pen and collage",
       date: "2023",
+      link: "/art/worldly",
       image: "src/assets/worldly/thumbnail.JPG",
+    },
+    {
+      id: 0,
+      title: "Sketchbook",
+      description: "Some of my favorite sketches, old and new.",
+      medium: "Ballpoint pen",
+      date: "2022-Present",
+      link: "/art/sketchbook",
+      image: "src/assets/sketchbook/thumbnail.JPG",
     },
   ];
   return (
@@ -33,13 +36,16 @@ function Art() {
       <div className="navBarDiv">
         <NavBar />
       </div>
-      <h2>Projects</h2>
+      <div className="artTitle">
+        <h2>Projects</h2>
+      </div>
+
       <div className="projectContainer">
         {projects.map((project) => (
-          <div className="projectDiv">
-            <h3>
-              <NavLink to="/art/sketchbook">{project.title}</NavLink>
-            </h3>
+          <div className="projectDiv" key={project.id}>
+            <h2>
+              <NavLink to={project.link}>{project.title}</NavLink>
+            </h2>
             <p className="projectDesc">{project.description}</p>
             <p className="projectText">
               <b>Medium</b>: {project.medium}
