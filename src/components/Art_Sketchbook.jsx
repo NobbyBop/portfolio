@@ -104,14 +104,12 @@ function Art_Sketchbook() {
       <div className="sketchTitle">
         <h2>Sketchbook</h2>
         <p>
-          Below are some of my favorite sketches (alphabetically) I've worked on
-          over the past few years (starting circa 2022). This sketchbook has
-          been a primary emotional outlet for me, so a lot of the pieces here
-          were highly pertinent to whatever was going on in my life at the time
-          I drew them. While they certainly are not my most polished or time
-          consuming work, I feel that these sketches have style, which is
-          something I have developed to be (I'd say) pretty unique, and I am
-          proud of that.
+          These are some of my favorite sketches (alphabetically) I've done on
+          over the past few years (starting circa 2022). Most are done in
+          ballpoint pen, although some use other kinds of ink pens. This
+          sketchbook has been a primary emotional outlet for me for the past few
+          years, and these pieces articulate the sense of style I've developed
+          over that time.
         </p>
       </div>
       <div className="sketchContainer">
