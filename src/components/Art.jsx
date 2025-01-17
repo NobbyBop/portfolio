@@ -9,7 +9,7 @@ function Art() {
       medium: "Ink",
       date: "2024",
       link: "/art/comfort",
-      image: "src/assets/comfort/thumbnail.JPG",
+      image: "/src/assets/comfort/thumbnail.JPG",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ function Art() {
       medium: "Ballpoint pen and collage",
       date: "2023",
       link: "/art/worldly",
-      image: "src/assets/worldly/thumbnail.JPG",
+      image: "/src/assets/worldly/thumbnail.JPG",
     },
     {
       id: 0,
@@ -28,7 +28,7 @@ function Art() {
       medium: "Ballpoint pen",
       date: "2022-Present",
       link: "/art/sketchbook",
-      image: "src/assets/sketchbook/thumbnail.JPG",
+      image: "/src/assets/sketchbook/thumbnail.JPG",
     },
   ];
   return (

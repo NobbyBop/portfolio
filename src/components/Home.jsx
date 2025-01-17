@@ -25,7 +25,7 @@ function Home() {
             .
           </p>
         </div>
-        <img className="homeImage" src="src\assets\images\me.JPEG" />
+        <img className="homeImage" src="/src/assets/images/me.JPEG" />
       </div>
       <div className="homeInnerContainer2">
         <h2>Socials</h2>
