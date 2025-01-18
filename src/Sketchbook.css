@@ -49,3 +49,26 @@
   margin: 0;
   margin-bottom: 1%;
 }
+
+@media screen and (max-width: 800px) {
+  .sketchContainer {
+    /* padding-top: 5%; */
+    width: 100%;
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 5%;
+  }
+  .sketchTitle {
+    max-width: 90%;
+  }
+  .sketchTitle p {
+    font-size: small;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3%;
+  }
+}
