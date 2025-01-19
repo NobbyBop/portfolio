@@ -9,7 +9,7 @@ function Art_Comfort() {
     },
     {
       id: 2,
-      title: "1.5",
+      title: ".5",
       image: `${import.meta.env.BASE_URL}comfort/2.JPG`,
       comment:
         "Looking in the mirror for too long and feeling like an alien, uncomfortable in my own skin.",
@@ -29,7 +29,7 @@ function Art_Comfort() {
     },
     {
       id: 5,
-      title: "Comfort/Chaos",
+      title: "Chaos/Comfort",
       image: `${import.meta.env.BASE_URL}comfort/5.JPG`,
       comment: "Struggling to find comfort amid anxiety.",
     },
