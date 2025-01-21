@@ -3,6 +3,16 @@ import { NavLink } from "react-router-dom";
 function Art() {
   let projects = [
     {
+      id: 0,
+      title: "The 'ATTENTION!' Experience",
+      description:
+        "This page is a digital presentation of my multi-media, multi-layered project called 'ATTENTION!' which was originally an in-person, interactive experience.",
+      medium: "Multimedia",
+      date: "2024",
+      link: "/art/attention",
+      image: `${import.meta.env.BASE_URL}attention/thumbnail.png`,
+    },
+    {
       id: 1,
       title: "'On Comfort...'",
       description: "A series of drawings exploring the concept of comfort.",
