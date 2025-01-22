@@ -12,6 +12,7 @@ function Art_Attention() {
           className="attentionTitle"
           src={`${import.meta.env.BASE_URL}attention/title.png`}
         />
+        <br></br>
         <NavLink to="/art/attention/">BACK TO MAIN PAGE</NavLink>
         <h2>PART THREE: THE USB</h2>
         <p>PLEASE FIND THE SLIDES OF THE PRESENTATION BELOW.</p>
