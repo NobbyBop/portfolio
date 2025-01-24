@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import Navigation from "./Navigation";
 function NavBar() {
   let scrollText =
-    "WHAT WILL YOU FIND? WHAT WILL YOU THINK? WHAT WILL YOU FEEL? WHAT WILL YOU LEARN? YOU'RE HERE. WHAT WILL YOU FIND? WHAT WILL YOU THINK? WHAT WILL YOU FEEL? WHAT WILL YOU LEARN?";
+    "WHAT ARE YOU LOOKING FOR? WHAT WILL YOU SEE? WHAT WILL YOU THINK? WHAT WILL YOU FEEL? WHAT WILL YOU LIKE? WHAT WILL YOU HATE?";
   return (
     <div className="navContainer">
       <NavLink className="headerNavLink" to="/">
@@ -10,8 +10,8 @@ function NavBar() {
       </NavLink>
       <Navigation />
       <p className="scrolling-textB">
-        <div className="scrolling-text-innerA">
-          {scrollText}&nbsp;{scrollText}
+        <div className="scrolling-text-innerC">
+          {scrollText}&nbsp;{scrollText}&nbsp;{scrollText}&nbsp;{scrollText}
         </div>
       </p>
     </div>

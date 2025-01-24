@@ -1,19 +1,27 @@
 import Navigation from "./Navigation";
-
+import { useState } from "react";
 function Landing() {
   let subtitles = [
-    "it's orange season...",
+    "developer. artist. quote collector.",
     "wilkomen, bienvenue, welcome.",
-    "developer. artist. third thing.",
-    "wilkes-barre, pa has the world's best pizza.",
-    "oh hi.",
-    "son of a gun...",
+    "i would've stolen you a whole orchestra.",
+    "see you space cowboy...",
+    "the best jerry, the best!",
   ];
-  let subtitle = subtitles[Math.floor(Math.random() * subtitles.length)];
+  let [subtitle, setSubtitle] = useState("developer. artist. quote collector.");
+  let [subtitleIndex, setSubtitleIndex] = useState(0);
   let scrollTextA =
     "WELCOME. ARE YOU READY? THE TIME IS NOW. DON'T BE AFRAID. A WHOLE WORLD LIES AHEAD.";
   let scrollTextB =
     "YOU'RE LATE. GET A MOVE ON. WHAT ARE YOU WAITING FOR? THE WORLD WILL CRUMBLE AT YOUR FEET.";
+
+  const handleRefresh = function () {
+    setSubtitleIndex((prevIndex) => {
+      const newIndex = (prevIndex + 1) % subtitles.length;
+      setSubtitle(subtitles[newIndex]);
+      return newIndex;
+    });
+  };
   return (
     <div className="landingContainer">
       <h1 className="scrolling-text">
@@ -22,17 +30,10 @@ function Landing() {
         </div>
       </h1>
       <div className="landingContents">
-        {/* <div className="scroller">
-          <h1 className="scroll-text">
-            WELCOME. YOU ARE EARLY. THE NEXT BIG THING. WELCOME. YOU ARE EARLY.
-            THE NEXT BIG THING. WELCOME. YOU ARE EARLY. THE NEXT BIG THING.
-            WELCOME. YOU ARE EARLY. THE NEXT BIG THING. WELCOME. YOU ARE EARLY.
-            THE NEXT BIG THING. WELCOME. YOU ARE EARLY. THE NEXT BIG THING.
-          </h1>
-        </div> */}
-
         <h1 className="landingTitle">Nicholas Mirigliani</h1>
-        <p className="landingSubtitle">{subtitle}</p>
+        <p className="landingSubtitle">
+          <button onClick={handleRefresh}>{subtitle}</button>
+        </p>
         <Navigation />
       </div>
       <h1 className="scrolling-text">
