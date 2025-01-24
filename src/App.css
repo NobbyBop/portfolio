@@ -125,25 +125,26 @@ a:hover {
   white-space: nowrap;
   width: 100%;
   position: relative;
+  font-size: large;
   font-family: "Roboto", sans-serif;
 }
 
 .scrolling-text-innerA {
   display: inline-block;
-  animation: scrollA 5s linear infinite;
-  color: red;
+  animation: scrollA 7s linear infinite;
+  color: antiquewhite;
 }
 
 .scrolling-text-innerB {
   display: inline-block;
-  animation: scrollB 5s linear infinite;
-  color: red;
+  animation: scrollB 7s linear infinite;
+  color: antiquewhite;
 }
 
 .scrolling-text-innerC {
   display: inline-block;
   animation: scrollC 5s linear infinite;
-  color: red;
+  color: antiquewhite;
 }
 
 @keyframes scrollA {
