@@ -7,13 +7,19 @@ function Landing() {
     "i would've stolen you a whole orchestra.",
     "see you space cowboy...",
     "the best jerry, the best!",
+    "youths...",
+    "that was a game. this is paintball.",
+    "ain't that just the way?",
+    "i'm gonna eat the whole thing.",
+    "i think breakfast rocks, dude.",
+    "pump up the jam.",
   ];
   let [subtitle, setSubtitle] = useState("developer. artist. quote collector.");
   let [subtitleIndex, setSubtitleIndex] = useState(0);
   let scrollTextA =
-    "WELCOME. ARE YOU READY? THE TIME IS NOW. DON'T BE AFRAID. A WHOLE WORLD LIES AHEAD.";
+    "WELCOME. ARE YOU READY? THE TIME IS NOW. DON'T BE AFRAID. A WHOLE WORLD LIES AHEAD. GO ON.";
   let scrollTextB =
-    "YOU'RE LATE. GET A MOVE ON. WHAT ARE YOU WAITING FOR? THE WORLD WILL CRUMBLE AT YOUR FEET.";
+    "GOOD MORNING. TODAY IS GOING TO BE A GREAT DAY. YOU ARE ABOUT TO SEE SOMETHING NEW. WE HOPE YOU ENJOY. ";
 
   const handleRefresh = function () {
     setSubtitleIndex((prevIndex) => {

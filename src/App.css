@@ -10,7 +10,7 @@ html,
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Garamond", "Times New Roman", "Courier New", "serif";
+  font-family: "Roboto", sans-serif;
   /* background-color: antiquewhite; */
 }
 
@@ -52,9 +52,9 @@ button:hover {
   display: grid;
   text-align: center;
   place-items: center;
-  gap: 5%;
+  /* gap: 5%; */
   border-bottom: solid 1.5px black;
-  padding-bottom: 1%;
+  /* padding-bottom: 1%; */
 }
 .navigation {
   display: flex;
