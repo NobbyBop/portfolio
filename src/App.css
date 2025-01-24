@@ -83,3 +83,54 @@ a:visited {
   align-items: center;
   justify-content: center;
 }
+
+/*SCROLLING */
+.scrolling-text {
+  display: flex;
+  overflow: hidden; /* Hides the overflowing content */
+  white-space: nowrap; /* Ensures text does not wrap to the next line */
+  width: 100%; /* Ensures the container spans the full width of the screen */
+  position: relative;
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.scrolling-textB {
+  display: flex;
+  overflow: hidden; /* Hides the overflowing content */
+  white-space: nowrap; /* Ensures text does not wrap to the next line */
+  width: 100%; /* Ensures the container spans the full width of the screen */
+  position: relative;
+  /* font-size: 5rem; */
+  font-family: "Roboto", sans-serif;
+}
+
+.scrolling-text-innerA {
+  display: inline-block; /* Keeps all text on one line */
+  animation: scrollA 5s linear infinite; /* Smooth scrolling animation */
+  color: red;
+}
+
+.scrolling-text-innerB {
+  display: inline-block; /* Keeps all text on one line */
+  animation: scrollB 5s linear infinite; /* Smooth scrolling animation */
+  color: red;
+}
+
+@keyframes scrollA {
+  from {
+    transform: translateX(0); /* Starts at the beginning */
+  }
+  to {
+    transform: translateX(-50%); /* Moves left by half its length to loop */
+  }
+}
+
+@keyframes scrollB {
+  from {
+    transform: translateX(-50%); /* Starts at the beginning */
+  }
+  to {
+    transform: translateX(0); /* Moves left by half its length to loop */
+  }
+}
