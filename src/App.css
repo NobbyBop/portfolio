@@ -73,12 +73,24 @@ button:hover {
   font-size: large;
   color: blue;
 }
-a:visited {
-  color: blue;
-}
 .navLink:visited,
 .headerNavLink:visited {
   color: black;
+}
+.navLink:hover {
+  color: gray;
+  text-decoration: underline;
+}
+.active-navLink:hover {
+  color: gray;
+  text-decoration: underline;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: gray;
+  text-decoration: underline;
 }
 .headerNavLink {
   color: black;
