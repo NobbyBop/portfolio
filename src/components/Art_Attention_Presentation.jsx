@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom";
+// import { SnavLink } from "react-router-dom";
+import SnavLink from "./SnavLink";
 import NavBar from "./NavBar";
 function Art_Attention() {
   const pageList = Array.from({ length: 23 }, (_, i) => (i + 1).toString());
@@ -13,7 +14,7 @@ function Art_Attention() {
           src={`${import.meta.env.BASE_URL}attention/title.png`}
         />
         <br></br>
-        <NavLink to="/art/attention/">BACK TO MAIN PAGE</NavLink>
+        <SnavLink to="/art/attention/">BACK TO MAIN PAGE</SnavLink>
         <h2>PART THREE: THE USB</h2>
         <p>PLEASE FIND THE SLIDES OF THE PRESENTATION BELOW.</p>
         <div className="attentionPageList">
@@ -26,7 +27,7 @@ function Art_Attention() {
             />
           ))}
         </div>
-        <NavLink to="/art/attention/">BACK TO MAIN PAGE</NavLink>
+        <SnavLink to="/art/attention/">BACK TO MAIN PAGE</SnavLink>
       </div>
     </div>
   );

@@ -1,25 +1,26 @@
-import { NavLink } from "react-router-dom";
+// import { SnavLink } from "react-router-dom";
+import SnavLink from "./SnavLink";
 function Navigation() {
   return (
     <nav className="navigation">
-      <NavLink
+      <SnavLink
         to="/home"
         className={({ isActive }) => (isActive ? "active-navLink" : "navLink")}
       >
         Home
-      </NavLink>
-      <NavLink
+      </SnavLink>
+      <SnavLink
         to="/art"
         className={({ isActive }) => (isActive ? "active-navLink" : "navLink")}
       >
         Art
-      </NavLink>
-      <NavLink
+      </SnavLink>
+      <SnavLink
         to="/photography"
         className={({ isActive }) => (isActive ? "active-navLink" : "navLink")}
       >
         Photography
-      </NavLink>
+      </SnavLink>
     </nav>
   );
 }

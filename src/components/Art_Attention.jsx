@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom";
+// import { SnavLink } from "react-router-dom";
+import SnavLink from "./SnavLink";
 import NavBar from "./NavBar";
 function Art_Attention() {
   return (
@@ -48,12 +49,12 @@ function Art_Attention() {
           "INSTRUCTION BOOK FOR PROCTORS OF GUIDED VIEWING EXPERIENCE." CLICKING
           ON THE IMAGE BELOW WILL ALLOW YOU TO VIEW THE BOOK IN ITS ENTIRETY.
         </p>
-        <NavLink to="/art/attention/packet">
+        <SnavLink to="/art/attention/packet">
           <img
             className="attentionImageHalf"
             src={`${import.meta.env.BASE_URL}attention/packet.JPEG`}
           />
-        </NavLink>
+        </SnavLink>
         <h2>PART THREE: THE USB</h2>
         <p>
           THE NEXT ITEM IN THE ENVELOPE IS A USB FLASH DRIVE. PARTICIPANTS WERE
@@ -62,12 +63,12 @@ function Art_Attention() {
           FILE. CLICKING ON THE IMAGE BELOW WILL ALLOW YOU TO VIEW THE
           POWERPOINT PRESENTATION IN ITS ENTIRETY.
         </p>
-        <NavLink to="/art/attention/presentation">
+        <SnavLink to="/art/attention/presentation">
           <img
             className="attentionImage34"
             src={`${import.meta.env.BASE_URL}attention/usb.JPEG`}
           />
-        </NavLink>
+        </SnavLink>
         <h2>PART FOUR: THE PHOTOS</h2>
         <p>
           ALONG WITH THE USB PRESENTATION, HARD COPIES OF THE PHOTOS USED IN IT
@@ -102,12 +103,12 @@ function Art_Attention() {
           PARTICIPATED IN THE ORIGINAL "ATTENTION!" PRESENTATION). CLICK ON THE
           IMAGE BELOW TO VIEW THEIR RESPONSES.
         </p>
-        <NavLink to="/art/attention/participants">
+        <SnavLink to="/art/attention/participants">
           <img
             className="attentionImage68"
             src={`${import.meta.env.BASE_URL}attention/participants.JPEG`}
           />
-        </NavLink>
+        </SnavLink>
         <h2>PART SEVEN: THE LETTER</h2>
         <p>
           THE FINAL ITEM IN THE ENVELOPE IS A LETTER WHICH READS AS FOLLOWS:
@@ -163,7 +164,7 @@ function Art_Attention() {
           PLEASEED WITH THE RESULTS, AESTHETICALLY AND CONTENT-WISE."
         </p>
         <p>AT THIS TIME YOU ARE DISMISSED.</p>
-        <NavLink to="/art/">BACK TO ART</NavLink>
+        <SnavLink to="/art/">BACK TO ART</SnavLink>
       </div>
     </div>
   );

@@ -1,12 +1,13 @@
 import NavBar from "./NavBar";
-import { NavLink } from "react-router-dom";
+// import { SnavLink } from "react-router-dom";
+import SnavLink from "./SnavLink";
 function Art() {
   let projects = [
     {
       id: 0,
       title: "The 'ATTENTION!' Experience",
       description:
-        "This page is a digital presentation of my multi-media, multi-layered project called 'ATTENTION!' which was originally an in-person, interactive experience.",
+        "This page is a digital presentation of my multi-media, multi-layered project called 'ATTENTION!' Originally an in-person, interactive experience.",
       medium: "Multimedia",
       date: "2024",
       link: "/art/attention",
@@ -54,7 +55,7 @@ function Art() {
         {projects.map((project) => (
           <div className="projectDiv" key={project.id}>
             <h2>
-              <NavLink to={project.link}>{project.title}</NavLink>
+              <SnavLink to={project.link}>{project.title}</SnavLink>
             </h2>
             <p className="projectDesc">{project.description}</p>
             <p className="projectText">
