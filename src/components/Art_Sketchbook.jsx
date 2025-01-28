@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
-import InProgress from "./InProgress";
 function Art_Sketchbook() {
+  const body = document.body;
+  body.className = "default-bg";
   const items = [
     {
       id: 1,
@@ -104,12 +105,11 @@ function Art_Sketchbook() {
       <div className="sketchTitle">
         <h2>Sketchbook</h2>
         <p>
-          These are some of my favorite sketches (alphabetically) I've done on
-          over the past few years (starting circa 2022). Most are done in
-          ballpoint pen, although some use other kinds of ink pens. This
-          sketchbook has been a primary emotional outlet for me for the past few
-          years, and these pieces articulate the sense of style I've developed
-          over that time.
+          These are some of my favorite sketches I've done on over the past few
+          years (starting circa 2022). Most are done in ballpoint pen, although
+          some use other kinds of ink pens. This sketchbook has been a primary
+          emotional outlet for me for the past few years, and these pieces
+          articulate the sense of style I've developed over that time.
         </p>
       </div>
       <div className="sketchContainer">

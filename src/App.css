@@ -2,6 +2,7 @@
 @import "Art.css";
 @import "Sketchbook.css";
 @import "Attention.css";
+@import "Photography.css";
 
 /* DESKTOP (GENERAL) */
 body,
@@ -11,11 +12,18 @@ html,
   padding: 0;
   height: 100%;
   font-family: "Roboto", sans-serif;
-  /* background-color: antiquewhite; */
+  /* background-color: white; */
+}
+body.photography-bg {
+  background-color: white;
 }
 
-* {
-  box-sizing: border-box;
+body.default-bg {
+  background-color: white;
+}
+
+body.landing-bg {
+  background-color: white;
 }
 
 /* LANDING */
@@ -35,7 +43,7 @@ html,
 button {
   cursor: pointer;
   font: inherit;
-  background: white;
+  background: inherit;
   border: none;
 }
 
@@ -132,19 +140,19 @@ a:hover {
 .scrolling-text-innerA {
   display: inline-block;
   animation: scrollA 7s linear infinite;
-  color: antiquewhite;
+  color: rgb(233, 183, 183);
 }
 
 .scrolling-text-innerB {
   display: inline-block;
   animation: scrollB 7s linear infinite;
-  color: antiquewhite;
+  color: rgb(233, 183, 183);
 }
 
 .scrolling-text-innerC {
   display: inline-block;
   animation: scrollC 5s linear infinite;
-  color: antiquewhite;
+  color: rgb(233, 183, 183);
 }
 
 @keyframes scrollA {

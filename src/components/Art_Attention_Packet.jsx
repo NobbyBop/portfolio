@@ -1,7 +1,10 @@
 // import { SnavLink } from "react-router-dom";
 import SnavLink from "./SnavLink";
 import NavBar from "./NavBar";
+
 function Art_Attention() {
+  const body = document.body;
+  body.className = "default-bg";
   const pageList = Array.from({ length: 18 }, (_, i) => (i + 1).toString());
   return (
     <div className="attentionOuterContainer">

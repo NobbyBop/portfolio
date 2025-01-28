@@ -1,6 +1,8 @@
 import Navigation from "./Navigation";
 import { useState } from "react";
 function Landing() {
+  const body = document.body;
+  body.className = "landing-bg";
   let subtitles = [
     "developer. artist. quote collector.",
     "wilkomen, bienvenue, welcome.",

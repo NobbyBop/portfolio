@@ -20,7 +20,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  gap: 10px;
+  gap: 2%;
   padding-bottom: 5%;
 }
 .projectDiv {

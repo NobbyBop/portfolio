@@ -1,5 +1,7 @@
 import NavBar from "./NavBar";
 function Home() {
+  const body = document.body;
+  body.className = "home-bg";
   return (
     <div className="homeContainer">
       <div>

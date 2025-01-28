@@ -2,6 +2,8 @@ import NavBar from "./NavBar";
 // import { SnavLink } from "react-router-dom";
 import SnavLink from "./SnavLink";
 function Art() {
+  const body = document.body;
+  body.className = "default-bg";
   let projects = [
     {
       id: 0,

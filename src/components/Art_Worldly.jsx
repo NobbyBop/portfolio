@@ -1,5 +1,7 @@
 import NavBar from "./NavBar";
 function Art_Worldly() {
+  const body = document.body;
+  body.className = "default-bg";
   const items = [
     {
       id: 1,
