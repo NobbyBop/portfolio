@@ -5,7 +5,7 @@ function Art_Sketchbook() {
   const items = [
     {
       id: 1,
-      title: "Birthday Sketches at Pier A",
+      title: "Birthday Art at Pier C",
       image: `${import.meta.env.BASE_URL}sketchbook/BIRTHDAY.JPG`,
       comment: "",
     },
@@ -41,7 +41,7 @@ function Art_Sketchbook() {
     },
     {
       id: 7,
-      title: "On Being A Real Human Being",
+      title: "On Being A Real Human",
       image: `${import.meta.env.BASE_URL}sketchbook/HUMAN.JPG`,
       comment: "",
     },
@@ -100,7 +100,7 @@ function Art_Sketchbook() {
   return (
     <div className="sketchOuterContainer">
       <div className="navBarDiv">
-        <NavBar />
+        <NavBar scrollText="YOU'RE IN THE TRENCHES NOW. THIS IS THE LAST STOP. ARE YOU READY FOR THE END? YOU'RE IN THE TRENCHES NOW. THIS IS THE LAST STOP. ARE YOU READY FOR THE END?" />
       </div>
       <div className="sketchTitle">
         <h2>Sketchbook</h2>

@@ -21,6 +21,12 @@ function Navigation() {
       >
         Photography
       </SnavLink>
+      <SnavLink
+        to="/blog"
+        className={({ isActive }) => (isActive ? "active-navLink" : "navLink")}
+      >
+        Blog?
+      </SnavLink>
     </nav>
   );
 }

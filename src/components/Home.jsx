@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="homeContainer">
       <div>
-        <NavBar />
+        <NavBar scrollText="WHO IS THIS GUY? WHAT DOES HE WANT FROM YOU? WHAT IS HE SMILING ABOUT? WHO IS THIS GUY? WHAT DOES HE WANT FROM YOU? WHAT IS HE SMILING ABOUT?" />
       </div>
       <div className="homeInnerContainer1">
         <div className="homeTextDiv">

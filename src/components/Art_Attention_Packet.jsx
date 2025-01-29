@@ -9,7 +9,7 @@ function Art_Attention() {
   return (
     <div className="attentionOuterContainer">
       <div className="navBarDiv">
-        <NavBar />
+        <NavBar scrollText="ATTENTION! ATTENTION! ATTENTION! ATTENTION! ATTENTION! ATTENTION! ATTENTION! ATTENTION! ATTENTION! ATTENTION! ATTENTION! ATTENTION!" />
       </div>
       <div className="attentionBody">
         <img

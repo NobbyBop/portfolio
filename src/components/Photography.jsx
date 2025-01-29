@@ -43,7 +43,7 @@ function Photography() {
   return (
     <div className="photoContainer">
       <div className="navBarDiv">
-        <NavBar />
+        <NavBar scrollText="HAVE YOU GONE OUTSIDE TODAY? TAKE A PHOTO AND PROVE IT. YOU MIGHT SEE SOMETHING PRETTY. HAVE YOU GONE OUTSIDE TODAY? TAKE A PHOTO AND PROVE IT. YOU MIGHT SEE SOMETHING PRETTY." />
       </div>
       <div className="photoBody">
         <h2>PHOTOGRAPHY</h2>

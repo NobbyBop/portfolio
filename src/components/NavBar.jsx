@@ -1,9 +1,12 @@
 // import { SnavLink } from "react-router-dom";
 import SnavLink from "./SnavLink";
 import Navigation from "./Navigation";
-function NavBar() {
-  let scrollText =
-    "WHAT ARE YOU LOOKING FOR? WHAT WILL YOU SEE? WHAT WILL YOU THINK? WHAT WILL YOU FEEL? WHAT WILL YOU LIKE? WHAT WILL YOU HATE?";
+function NavBar(props) {
+  let scrollText;
+  if (props.scrollText) scrollText = props.scrollText;
+  else
+    scrollText =
+      "WHAT ARE YOU LOOKING FOR? WHAT WILL YOU SEE? WHAT WILL YOU THINK? WHAT WILL YOU FEEL? WHAT WILL YOU LIKE? WHAT WILL YOU HATE?";
   return (
     <div className="navContainer">
       <SnavLink className="headerNavLink" to="/">

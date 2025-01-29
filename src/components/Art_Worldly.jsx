@@ -62,7 +62,7 @@ function Art_Worldly() {
   return (
     <div className="sketchOuterContainer">
       <div className="navBarDiv">
-        <NavBar />
+        <NavBar scrollText="STOP PHILOSOPHY. WHO CARES? TV IS GOD. SUBSTANCE ANXIETY. BREAKDOWN. STOP PHILOSOPHY. WHO CARES? TV IS GOD. SUBSTANCE ANXIETY. BREAKDOWN." />
       </div>
       <div className="sketchTitle">
         <h2>WORLDLY</h2>

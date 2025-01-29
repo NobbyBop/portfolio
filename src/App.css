@@ -36,6 +36,7 @@ body.landing-bg {
   place-items: center;
   /* gap: 5%; */
 }
+
 .landingSubtitle {
   text-decoration: italic;
 }

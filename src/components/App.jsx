@@ -10,6 +10,7 @@ import Art_Attention_Participants from "./Art_Attention_Participants";
 import Art_Comfort from "./Art_Comfort";
 import Art_Worldly from "./Art_Worldly";
 import Photography from "./Photography";
+import Blog from "./Blog";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           element={<Art_Attention_Participants />}
         />
         <Route path="/photography" element={<Photography />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </>
   );

@@ -52,7 +52,7 @@ function Art_Comfort() {
   return (
     <div className="sketchOuterContainer">
       <div className="navBarDiv">
-        <NavBar />
+        <NavBar scrollText="ARE YOU COMFORTABLE? NO? GET COMFORTABLE! DO YOU ALWAYS LOOK LIKE THAT? ARE YOU COMFORTABLE? NO? GET COMFORTABLE! DO YOU ALWAYS LOOK LIKE THAT?" />
       </div>
       <div className="sketchTitle">
         <h2>On Comfort...</h2>
