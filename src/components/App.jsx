@@ -1,14 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 import Landing from "./Landing";
 import Home from "./Home";
-import Art from "./Art";
-import Art_Sketchbook from "./Art_Sketchbook";
-import Art_Attention from "./Art_Attention";
-import Art_Attention_Packet from "./Art_Attention_Packet";
-import Art_Attention_Presentation from "./Art_Attention_Presentation";
-import Art_Attention_Participants from "./Art_Attention_Participants";
-import Art_Comfort from "./Art_Comfort";
-import Art_Worldly from "./Art_Worldly";
+import Art from "./Art/Art";
+import Art_Sketchbook from "./Art/Art_Sketchbook";
+import Art_Attention from "./Art/Attention/Art_Attention";
+import Art_Attention_Packet from "./Art/Attention/Art_Attention_Packet";
+import Art_Attention_Presentation from "./Art/Attention/Art_Attention_Presentation";
+import Art_Attention_Participants from "./Art/Attention/Art_Attention_Participants";
+import Art_Comfort from "./Art/Art_Comfort";
+import Art_Worldly from "./Art/Art_Worldly";
 import Photography from "./Photography";
 import Blog from "./Blog";
 

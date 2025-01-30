@@ -1,4 +1,4 @@
-import NavBar from "./NavBar";
+import NavBar from "../NavBar";
 function Art_Worldly() {
   const body = document.body;
   body.className = "default-bg";
