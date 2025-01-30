@@ -31,3 +31,21 @@
 .home-image {
   width: 100%;
 }
+
+.mobiusFooter {
+  width: 100%;
+  /* max-width: 80%; */
+  padding-bottom: 2%;
+}
+
+.mobiusArtPageTitle {
+  width: 100%;
+  max-width: 50%;
+}
+
+@media (max-width: 768px) {
+  .mobiusArtPageTitle {
+    width: 100%;
+    max-width: 100%;
+  }
+}

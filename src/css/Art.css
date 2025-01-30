@@ -41,8 +41,6 @@
 }
 .projectText,
 .projectDesc {
-  /* display: -webkit-box;
-  -webkit-line-clamp: 3; */
   line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -66,5 +64,8 @@
   .artTitle {
     width: 100%;
     max-width: 90%;
+  }
+  .projectDesc {
+    height: 4em;
   }
 }
