@@ -1,9 +1,12 @@
-@import "Home.css";
-@import "Art.css";
-@import "Sketchbook.css";
-@import "Attention.css";
-@import "Photography.css";
+@import "css/Home.css";
+@import "css/Art.css";
+@import "css/Sketchbook.css";
+@import "css/Attention.css";
+@import "css/Photography.css";
 
+:root {
+  --scrollcolor: red;
+}
 /* DESKTOP (GENERAL) */
 body,
 html,
@@ -141,19 +144,19 @@ a:hover {
 .scrolling-text-innerA {
   display: inline-block;
   animation: scrollA 7s linear infinite;
-  color: rgb(233, 183, 183);
+  color: var(--scrollcolor);
 }
 
 .scrolling-text-innerB {
   display: inline-block;
   animation: scrollB 7s linear infinite;
-  color: rgb(233, 183, 183);
+  color: var(--scrollcolor);
 }
 
 .scrolling-text-innerC {
   display: inline-block;
   animation: scrollC 5s linear infinite;
-  color: rgb(233, 183, 183);
+  color: var(--scrollcolor);
 }
 
 @keyframes scrollA {
