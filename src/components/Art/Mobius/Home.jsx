@@ -12,35 +12,35 @@ function Home() {
     { id: 9, source: `${import.meta.env.BASE_URL}mobius/theatre.png` },
   ];
   return (
-    <>
+    <div className="mobiusPageContainer">
       <Navigation />
-      <h2>Home</h2>
-      <p>
-        Mobius Line Band information here. Some pictures and social links as
-        well.
-      </p>
-      <h3 className="info">About</h3>
-      <p>
-        MOBIUS LINE is Bennet Stoll, Grayson Beck, Jon Burke, Jack Kline, (and
-        Captain).{" "}
-      </p>
-      <h3 className="info">Socials</h3>
-      <p>
-        Follow us on instagram{" "}
-        <a href="https://www.instagram.com/mobiuslineband/">@mobiuslineband</a>{" "}
-        !
-      </p>
+      <div className="mobiusTextDiv">
+        <h2>Home</h2>
+        <h3 className="info">About</h3>
+        <p>
+          MOBIUS LINE is Bennet Stoll, Grayson Beck, Jon Burke, Jack Kline, (and
+          Captain).{" "}
+        </p>
+        <h3 className="info">Socials</h3>
+        <p>
+          Follow us on instagram{" "}
+          <a href="https://www.instagram.com/mobiuslineband/">
+            @mobiuslineband
+          </a>{" "}
+          !
+        </p>
+      </div>
 
       <h3>Photos</h3>
       <div className="home-photos-container">
         {photos.map((item) => (
           <div className="home-photos" key={item.id}>
             <img src={item.source} className="home-image" />
-            <p>caption undefined for photo_id={item.id}</p>
+            <p>Image {item.id}/9</p>
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

@@ -18,6 +18,7 @@ import MobiusMerch from "./Art/Mobius/Merch";
 import MobiusNewsletter from "./Art/Mobius/Newsletter";
 import MobiusReleases from "./Art/Mobius/Releases";
 import MobiusTour from "./Art/Mobius/Tour";
+import Art_Mobius from "./Art/Mobius/Art_Mobius";
 
 function App() {
   return (
@@ -42,8 +43,7 @@ function App() {
           path="/art/attention/participants"
           element={<Art_Attention_Participants />}
         />
-        <Route path="/photography" element={<Photography />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/art/mobiusline" element={<Art_Mobius />} />
         <Route path="/mobiusline/home" element={<MobiusHome />} />
         <Route path="/mobiusline/faq" element={<MobiusFAQ />} />
         <Route path="/mobiusline/tour" element={<MobiusTour />} />
@@ -51,6 +51,8 @@ function App() {
         <Route path="/mobiusline/merch" element={<MobiusMerch />} />
         <Route path="/mobiusline/newsletter" element={<MobiusNewsletter />} />
         <Route path="/mobiusline/admin" element={<MobiusAdmin />} />
+        <Route path="/photography" element={<Photography />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </>
   );

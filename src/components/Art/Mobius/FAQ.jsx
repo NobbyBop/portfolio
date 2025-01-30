@@ -1,7 +1,7 @@
 import Navigation from "./Navigation";
 function FAQ() {
   return (
-    <>
+    <div className="mobiusPageContainer">
       <Navigation />
       <h2>FAQ</h2>
 
@@ -123,7 +123,7 @@ function FAQ() {
           and just haven't gotten the chance to do so yet.
         </p>
       </div>
-    </>
+    </div>
   );
 }
 

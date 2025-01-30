@@ -1,7 +1,7 @@
 import Navigation from "./Navigation";
 function Newsletter() {
   return (
-    <>
+    <div className="mobiusPageContainer">
       <Navigation />
       <h2>Newsletter</h2>
       <p>Newsletter emails coming soon, stay tuned! -J</p>
@@ -82,7 +82,7 @@ function Newsletter() {
       <br />
       <br />
       <p className="loaderror">Unable to load earlier newsletters.</p>
-    </>
+    </div>
   );
 }
 

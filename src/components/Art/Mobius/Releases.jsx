@@ -34,7 +34,7 @@ function Releases() {
   };
 
   return (
-    <>
+    <div className="mobiusPageContainer">
       <Navigation />
       <h2>Releases</h2>
       <p>
@@ -66,7 +66,7 @@ function Releases() {
           <button type="submit">Log In</button>
         </div>
       </form>
-    </>
+    </div>
   );
 }
 

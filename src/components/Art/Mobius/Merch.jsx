@@ -40,7 +40,7 @@ function App() {
   ];
 
   return (
-    <>
+    <div className="mobiusPageContainer">
       <Navigation />
       <h2>Merch</h2>
       <div className="merch-listings">
@@ -54,7 +54,7 @@ function App() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

@@ -1,7 +1,7 @@
 import Navigation from "./Navigation";
 function Tour() {
   return (
-    <>
+    <div className="mobiusPageContainer">
       <Navigation />
       <h2 className="pageHeading">Tour</h2>
       <h3 className="tourType">Upcoming</h3>
@@ -51,7 +51,7 @@ function Tour() {
           <button disabled>VIP</button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

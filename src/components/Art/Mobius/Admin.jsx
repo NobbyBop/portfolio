@@ -2,7 +2,7 @@ import Navigation from "./Navigation";
 
 function Admin() {
   return (
-    <>
+    <div className="mobiusPageContainer">
       <Navigation />
       <h2>Admin</h2>
       <p>
@@ -12,7 +12,7 @@ function Admin() {
         </a>
         .
       </p>
-    </>
+    </div>
   );
 }
 

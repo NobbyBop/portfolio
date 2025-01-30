@@ -16,6 +16,16 @@ function Art() {
       image: `${import.meta.env.BASE_URL}attention/thumbnail.png`,
     },
     {
+      id: 777,
+      title: "MOBIUS LINE",
+      description:
+        "An ARG (Augmented Reality Game) co-developed with Sumner Badzik. Players had to solve the mystery of MOBIUS LINE's unreleased song.",
+      medium: "Multimedia",
+      date: "2024",
+      link: "/art/mobiusline",
+      image: `${import.meta.env.BASE_URL}mobius/thumbnail.jpg`,
+    },
+    {
       id: 1,
       title: "'On Comfort...'",
       description: "A series of drawings exploring the concept of comfort.",
