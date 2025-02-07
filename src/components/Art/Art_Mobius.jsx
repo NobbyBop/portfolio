@@ -56,7 +56,7 @@ function Art_Mobius() {
           src={`${import.meta.env.BASE_URL}mobius/croppedbeatles.png`}
         />
         <p>
-          MOBIUS LINE is a ARG (Augmented Reality Game) that I co-created with
+          MOBIUS LINE is an ARG (Augmented Reality Game) that I co-created with
           Sumner Badzik. This project involved creating branding and marketing
           for our fictitious band MOBIUS LINE, as well as constructing a
           narrative which is scattered across multiple social media platforms

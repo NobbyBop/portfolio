@@ -49,6 +49,9 @@ function Home() {
         <a target="_blank" href="https://github.com/NobbyBop">
           GitHub
         </a>
+        <a target="_blank" href={`${import.meta.env.BASE_URL}Resume.pdf`}>
+          Résumé
+        </a>
       </div>
     </div>
   );
