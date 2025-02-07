@@ -33,7 +33,7 @@ function Home() {
         />
       </div>
       <div className="homeInnerContainer2">
-        <h2>Socials</h2>
+        <h2>Links</h2>
         <a target="_blank" href="https://www.youtube.com/@nobbybop">
           YouTube
         </a>
