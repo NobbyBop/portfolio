@@ -21,7 +21,7 @@ function Landing() {
   let scrollTextA =
     "WELCOME. ARE YOU READY? THE TIME IS NOW. DON'T BE AFRAID. A WHOLE WORLD LIES AHEAD. GO ON.";
   let scrollTextB =
-    "WE HOPE YOU ENJOY. YOU ARE ABOUT TO SEE SOMETHING NEW. TODAY IS GOING TO BE A GREAT DAY. GOOD MORNING.";
+    "WE zHOPE YOU ENJOY. YOU ARE ABOUT TO SEE SOMETHING NEW. TODAY IS GOING TO BE A GREAT DAY. GOOD MORNING.";
 
   const handleRefresh = function () {
     setSubtitleIndex((prevIndex) => {
@@ -39,8 +39,8 @@ function Landing() {
       </h1>
       <div className="landingContents">
         <h1 className="landingTitle">Nicholas Mirigliani</h1>
-        <p className="landingSubtitle">
-          <button onClick={handleRefresh}>{subtitle}</button>
+        <p className="landingSubtitle"> artist & developer
+          {/* <button onClick={handleRefresh}>{subtitle}</button> */}
         </p>
         <Navigation />
       </div>
