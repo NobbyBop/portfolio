@@ -21,7 +21,7 @@ function Landing() {
   let scrollTextA =
     "WELCOME. ARE YOU READY? THE TIME IS NOW. DON'T BE AFRAID. A WHOLE WORLD LIES AHEAD. GO ON.";
   let scrollTextB =
-    "WE zHOPE YOU ENJOY. YOU ARE ABOUT TO SEE SOMETHING NEW. TODAY IS GOING TO BE A GREAT DAY. GOOD MORNING.";
+    "WE HOPE YOU ENJOY. YOU ARE ABOUT TO SEE SOMETHING NEW. TODAY IS GOING TO BE A GREAT DAY. GOOD MORNING.";
 
   const handleRefresh = function () {
     setSubtitleIndex((prevIndex) => {
