@@ -2,8 +2,6 @@ services:
   portfolio:
     build: .
     container_name: portfolio_app
-    ports:
-      - "3000:80"
     networks:
       - shared_network
     restart: unless-stopped
