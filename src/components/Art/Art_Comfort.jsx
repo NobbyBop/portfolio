@@ -6,45 +6,45 @@ function Art_Comfort() {
     {
       id: 1,
       title: "3",
-      image: `${import.meta.env.BASE_URL}comfort/1.JPG`,
+      image: `/comfort/1.JPG`,
       comment: "The comfort of my college bedroom which I have since left.",
     },
     {
       id: 2,
       title: ".5",
-      image: `${import.meta.env.BASE_URL}comfort/2.JPG`,
+      image: `/comfort/2.JPG`,
       comment:
         "Looking in the mirror for too long and feeling like an alien, uncomfortable in my own skin.",
     },
     {
       id: 3,
       title: "Overwhelm",
-      image: `${import.meta.env.BASE_URL}comfort/3.JPG`,
+      image: `/comfort/3.JPG`,
       comment:
         "Realizing all the things you don't know about the world. How can you find comfort when you'll never know everything?",
     },
     {
       id: 4,
       title: "'Hold on' and a journal entry",
-      image: `${import.meta.env.BASE_URL}comfort/4.JPG`,
+      image: `/comfort/4.JPG`,
       comment: "Comfort in romantic partners who aren't in your life forever.",
     },
     {
       id: 5,
       title: "Chaos/Comfort",
-      image: `${import.meta.env.BASE_URL}comfort/5.JPG`,
+      image: `/comfort/5.JPG`,
       comment: "Struggling to find comfort amid anxiety.",
     },
     {
       id: 6,
       title: "Coping/Winning",
-      image: `${import.meta.env.BASE_URL}comfort/6.JPG`,
+      image: `/comfort/6.JPG`,
       comment: "The comfort of coping mechanisms, positive or not.",
     },
     {
       id: 7,
       title: "Concept",
-      image: `${import.meta.env.BASE_URL}comfort/concept.JPG`,
+      image: `/comfort/concept.JPG`,
       comment: "My initial planning.",
     },
   ];

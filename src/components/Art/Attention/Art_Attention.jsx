@@ -12,7 +12,7 @@ function Art_Attention() {
       <div className="attentionBody">
         <img
           className="attentionTitle"
-          src={`${import.meta.env.BASE_URL}attention/title.png`}
+          src="/attention/title.png"
         />
         <p>
           THIS PROJECT IS A MULTI-LAYERED, MULTI-MEDIA EXPERIENCE THAT WAS
@@ -25,7 +25,7 @@ function Art_Attention() {
         </p>
         <img
           className="attentionImageFull"
-          src={`${import.meta.env.BASE_URL}attention/webdiagram1.png`}
+          src="/attention/webdiagram1.png"
         />
         <h2>PART ONE: THE ENVELOPE</h2>
         <p>
@@ -38,7 +38,7 @@ function Art_Attention() {
         </p>
         <img
           className="attentionImageHalf"
-          src={`${import.meta.env.BASE_URL}attention/envelope.JPEG`}
+          src={`attention/envelope.JPEG`}
         />
         <p>
           INSIDE THE ENVELOPE IS A COLLECTION OF ITEMS, EACH OF WHICH REQUIRES
@@ -54,7 +54,7 @@ function Art_Attention() {
         <SnavLink to="/art/attention/packet">
           <img
             className="attentionImageHalf"
-            src={`${import.meta.env.BASE_URL}attention/packet.JPEG`}
+            src={`attention/packet.JPEG`}
           />
         </SnavLink>
         <h2>PART THREE: THE USB</h2>
@@ -68,7 +68,7 @@ function Art_Attention() {
         <SnavLink to="/art/attention/presentation">
           <img
             className="attentionImage34"
-            src={`${import.meta.env.BASE_URL}attention/usb.JPEG`}
+            src={`attention/usb.JPEG`}
           />
         </SnavLink>
         <h2>PART FOUR: THE PHOTOS</h2>
@@ -79,7 +79,7 @@ function Art_Attention() {
         </p>
         <img
           className="attentionImage34"
-          src={`${import.meta.env.BASE_URL}attention/photos.JPEG`}
+          src={`attention/photos.JPEG`}
         />
         <h2>PART FIVE: THE CASSETTE</h2>
         <p>
@@ -89,12 +89,12 @@ function Art_Attention() {
         </p>
         <img
           className="attentionImage34"
-          src={`${import.meta.env.BASE_URL}attention/cassette.JPEG`}
+          src={`attention/cassette.JPEG`}
         />
         <br />
         <audio controls>
           <source
-            src={`${import.meta.env.BASE_URL}attention/audio.m4a`}
+            src={`attention/audio.m4a`}
             type="audio/mp4"
           />
           Your browser does not support the audio element.
@@ -108,7 +108,7 @@ function Art_Attention() {
         <SnavLink to="/art/attention/participants">
           <img
             className="attentionImage68"
-            src={`${import.meta.env.BASE_URL}attention/participants.JPEG`}
+            src={`attention/participants.JPEG`}
           />
         </SnavLink>
         <h2>PART SEVEN: THE LETTER</h2>
@@ -136,7 +136,7 @@ function Art_Attention() {
         <p>YOURS TRULY, [LAMBDA]"</p>
         <img
           className="attentionImageHalf"
-          src={`${import.meta.env.BASE_URL}attention/letter.JPEG`}
+          src={`attention/letter.JPEG`}
         />
         <h2>DISMISSAL</h2>
         <p>

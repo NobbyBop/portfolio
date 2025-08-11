@@ -52,7 +52,7 @@ function Photography() {
           {photoNames.map((name) => (
             <img
               className="photo"
-              src={`${import.meta.env.BASE_URL}photos/${name}`}
+              src={`/photos/${name}`}
             />
           ))}
         </div>

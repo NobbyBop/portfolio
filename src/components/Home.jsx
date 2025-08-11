@@ -29,7 +29,7 @@ function Home() {
         </div>
         <img
           className="homeImage"
-          src={`${import.meta.env.BASE_URL}images/me.JPEG`}
+          src="/images/me.JPEG"
         />
       </div>
       <div className="homeInnerContainer2">
@@ -49,7 +49,7 @@ function Home() {
         <a target="_blank" href="https://github.com/NobbyBop">
           GitHub
         </a>
-        <a target="_blank" href={`${import.meta.env.BASE_URL}Resume.pdf`}>
+        <a target="_blank" href="/Resume.pdf">
           Résumé
         </a>
       </div>

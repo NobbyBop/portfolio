@@ -13,7 +13,7 @@ function Art() {
       medium: "Multimedia",
       date: "2024",
       link: "/art/attention",
-      image: `${import.meta.env.BASE_URL}attention/thumbnail.png`,
+              image: `/attention/thumbnail.png`,
     },
     {
       id: 777,
@@ -23,7 +23,7 @@ function Art() {
       medium: "Multimedia",
       date: "2024",
       link: "/art/mobiusline",
-      image: `${import.meta.env.BASE_URL}mobius/thumbnail.jpg`,
+              image: `/mobius/thumbnail.jpg`,
     },
     {
       id: 1,
@@ -32,7 +32,7 @@ function Art() {
       medium: "Ink",
       date: "2024",
       link: "/art/comfort",
-      image: `${import.meta.env.BASE_URL}comfort/thumbnail.JPG`,
+              image: `/comfort/thumbnail.JPG`,
     },
     {
       id: 2,
@@ -42,7 +42,7 @@ function Art() {
       medium: "Ballpoint pen and collage",
       date: "2023",
       link: "/art/worldly",
-      image: `${import.meta.env.BASE_URL}worldly/thumbnail.JPG`,
+              image: `/worldly/thumbnail.JPG`,
     },
     {
       id: 0,
@@ -51,7 +51,7 @@ function Art() {
       medium: "Ballpoint pen",
       date: "2022-Present",
       link: "/art/sketchbook",
-      image: `${import.meta.env.BASE_URL}sketchbook/thumbnail.JPG`,
+              image: `/sketchbook/thumbnail.JPG`,
     },
   ];
   return (

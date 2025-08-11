@@ -13,7 +13,7 @@ function Art_Attention() {
       <div className="attentionBody">
         <img
           className="attentionTitle"
-          src={`${import.meta.env.BASE_URL}attention/title.png`}
+          src={`attention/title.png`}
         />
         <br></br>
         <SnavLink to="/art/attention/">BACK TO MAIN PAGE</SnavLink>

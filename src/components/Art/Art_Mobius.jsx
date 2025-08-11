@@ -6,37 +6,37 @@ function Art_Mobius() {
     {
       id: 2,
       title: "Mercury Lounge Poster",
-      image: `${import.meta.env.BASE_URL}mobius/Mercury_Lounge.jpg`,
+              image: `/mobius/Mercury_Lounge.jpg`,
       comment: "",
     },
     {
       id: 3,
       title: "Tractor Tavern Poster",
-      image: `${import.meta.env.BASE_URL}mobius/Tractor_Tavern.jpg`,
+              image: `/mobius/Tractor_Tavern.jpg`,
       comment: "",
     },
     {
       id: 4,
       title: "Grey Eagle Poster",
-      image: `${import.meta.env.BASE_URL}mobius/Grey_Eagle.jpg`,
+              image: `/mobius/Grey_Eagle.jpg`,
       comment: "",
     },
     {
       id: 1,
       title: "QR Code",
-      image: `${import.meta.env.BASE_URL}mobius/QR.jpg`,
+              image: `/mobius/QR.jpg`,
       comment: "",
     },
     {
       id: 5,
       title: "Promotional Image 1",
-      image: `${import.meta.env.BASE_URL}mobius/elevator.png`,
+              image: `/mobius/elevator.png`,
       comment: "",
     },
     {
       id: 6,
       title: "Promotional Image 4",
-      image: `${import.meta.env.BASE_URL}mobius/climb.png`,
+              image: `/mobius/climb.png`,
       comment: "",
     },
   ];
@@ -49,11 +49,11 @@ function Art_Mobius() {
       <div className="sketchTitle">
         <img
           className="mobiusArtPageTitle"
-          src={`${import.meta.env.BASE_URL}mobius/Logo2.jpg`}
+          src="/mobius/Logo2.jpg"
         />
         <img
           className="mobiusFooter"
-          src={`${import.meta.env.BASE_URL}mobius/croppedbeatles.png`}
+          src="/mobius/croppedbeatles.png"
         />
         <p>
           MOBIUS LINE is an ARG (Augmented Reality Game) that I co-created with
