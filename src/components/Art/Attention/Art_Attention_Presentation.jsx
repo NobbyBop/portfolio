@@ -13,7 +13,7 @@ function Art_Attention() {
       <div className="attentionBody">
         <img
           className="attentionTitle"
-          src={`attention/title.png`}
+          src={`/attention/title.png`}
         />
         <br></br>
         <SnavLink to="/art/attention/">BACK TO MAIN PAGE</SnavLink>
@@ -23,9 +23,7 @@ function Art_Attention() {
           {pageList.map((page) => (
             <img
               className="attentionPage"
-              src={`${
-                import.meta.env.BASE_URL
-              }attention/presentation_slides/${page}.png`}
+              src={`/attention/presentation_slides/${page}.png`}
             />
           ))}
         </div>
