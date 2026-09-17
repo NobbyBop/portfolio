@@ -1,0 +1,44 @@
+import SnavLink from "./SnavLink";
+import { NavLink } from "react-router-dom";
+function Navigation({displayName=false, underline=true}) {
+
+  const activeClass = "text-blue-600 underline"
+  const inactiveClass = "text-gray-600 hover:underline"
+  return (
+    <>
+      {displayName && <div className="flex justify-center"><NavLink className="font-bold text-2xl" to={"/"}>NICHOLAS MIRIGLIANI</NavLink></div>}
+      {/* ${underline=="true" ? "border-b-2  pb-4" : ""} */}
+      <nav className={`flex gap-8 justify-center items-center text-xl ${underline!="false" ? "border-b-2" : ""} `}>
+        <SnavLink
+          to="/home"
+          className={({ isActive }) => (isActive ? activeClass : inactiveClass)}
+        >
+          Home
+        </SnavLink>
+
+        <SnavLink
+          to="/professional"
+          className={({ isActive }) => (isActive ? activeClass: inactiveClass)}
+        >
+          Professional
+        </SnavLink>
+
+        <SnavLink
+          to="/art"
+          className={({ isActive }) => (isActive ? activeClass: inactiveClass)}
+        >
+          Art
+        </SnavLink>
+
+        <SnavLink
+          to="/game"
+          className={({ isActive }) => (isActive ? activeClass: inactiveClass)}
+        >
+          Game
+        </SnavLink>
+      </nav>
+    </>
+  );
+}
+
+export default Navigation;
