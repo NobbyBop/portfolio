@@ -1,11 +1,12 @@
 import SnavLink from "../SnavLink";
 import Navigation from "../Navigation";
+import { assetPath } from "../../utils/assets";
 function Art_Attention() {
   return (
     <div className="flex flex-col items-center justify-center font-[Courier_New]">
     <div><Navigation displayName="true"/></div>
     <div className="flex flex-col gap-4 lg:max-w-1/2 p-4">
-      <img src="/attention/title.webp"/>
+       <img src={assetPath("attention/title.webp")}/>
       <p>
         THIS PROJECT IS A MULTI-LAYERED, MULTI-MEDIA EXPERIENCE THAT WAS
         INTENDED TO BE CONDUCTED IN-PERSON IN AN INTERACTIVE STYLE. IN LIEU OF
@@ -15,7 +16,7 @@ function Art_Attention() {
         THE DISPLAY. FOR A COMPLETE UNDERSTANDING, PLEASE CONSULT THE
         SUPPLEMENTAL DIAGRAM BELOW.
       </p>
-      <img src="/attention/webdiagram1.webp"/>
+       <img src={assetPath("attention/webdiagram1.webp")}/>
 
       <div className="lg:grid lg:grid-cols-2 border-2 p-4 gap-4">
         <div>
@@ -35,7 +36,7 @@ function Art_Attention() {
           </p>
         </div>
 
-        <img src={`/attention/envelope.webp`}/>
+         <img src={assetPath("attention/envelope.webp")}/>
       </div>
 
 
@@ -50,7 +51,7 @@ function Art_Attention() {
         </div>
 
         <SnavLink to="/art/attention/packet">
-          <img src={`/attention/packet.webp`}/>
+           <img src={assetPath("attention/packet.webp")}/>
         </SnavLink>
       </div>
       <div className="lg:grid lg:grid-cols-2 border-2 p-4 gap-4">
@@ -68,7 +69,7 @@ function Art_Attention() {
         <SnavLink to="/art/attention/presentation">
           <img
 
-            src={`/attention/usb.webp`}
+             src={assetPath("attention/usb.webp")}
           />
         </SnavLink>
       </div>
@@ -84,7 +85,7 @@ function Art_Attention() {
 
         <img
 
-          src={`/attention/photos.webp`}
+           src={assetPath("attention/photos.webp")}
         />
       </div>
       <div className="lg:grid lg:grid-cols-2 border-2 p-4 gap-4">
@@ -97,7 +98,7 @@ function Art_Attention() {
           </p>
           <audio controls>
             <source
-              src={`/attention/audio.m4a`}
+               src={assetPath("attention/audio.m4a")}
               type="audio/mp4"
             />
             Your browser does not support the audio element.
@@ -106,7 +107,7 @@ function Art_Attention() {
 
         <img
 
-          src={`/attention/cassette.webp`}
+           src={assetPath("attention/cassette.webp")}
         />
       </div>
       <div className="lg:grid lg:grid-cols-2 border-2 p-4 gap-4">
@@ -123,7 +124,7 @@ function Art_Attention() {
         <SnavLink to="/art/attention/participants">
           <img
 
-            src={`/attention/participants.webp`}
+             src={assetPath("attention/participants.webp")}
           />
         </SnavLink>
       </div>
@@ -156,7 +157,7 @@ function Art_Attention() {
 
         <img
 
-          src={`/attention/letter.webp`}
+           src={assetPath("attention/letter.webp")}
         />
       </div>
       <div className="grid grid-cols-1 border-2 p-4 gap-4">

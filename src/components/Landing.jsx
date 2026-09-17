@@ -1,9 +1,10 @@
 import Navigation from "./Navigation";
+import { assetPath } from "../utils/assets";
 function Landing() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen gap-4 font-[monospace] bg-cover" 
     style={
-      { backgroundImage: "url('images/LandingBG_Desktop.webp')", backgroundPosition: 'center 10%' }
+       { backgroundImage: `url('${assetPath("images/LandingBG_Desktop.webp")}')`, backgroundPosition: 'center 10%' }
       }>
       <div className="flex flex-col items-center justify-center gap-0">
         <h1 className="font-bold text-2xl">NICHOLAS MIRIGLIANI</h1>

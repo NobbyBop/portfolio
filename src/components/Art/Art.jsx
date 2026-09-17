@@ -1,5 +1,6 @@
 import Navigation from "../Navigation";
 import SnavLink from "../SnavLink";
+import { assetPath } from "../../utils/assets";
 function Art() {
   let projects = [
     {
@@ -9,7 +10,7 @@ function Art() {
       medium: "Photography",
       date: "2025",
       link: "/art/orangeseason",
-              image: `/photos/OrangeSeason/thumbnail.webp`,
+              image: assetPath("photos/OrangeSeason/thumbnail.webp"),
     },
     {
       id: 1,
@@ -18,7 +19,7 @@ function Art() {
       medium: "Ballpoint pen",
       date: "2022-Present",
       link: "/art/sketchbook",
-              image: `/sketchbook/thumbnail.webp`,
+              image: assetPath("sketchbook/thumbnail.webp"),
     },
     {
       id: 2,
@@ -28,7 +29,7 @@ function Art() {
       medium: "Multimedia",
       date: "2024",
       link: "/art/attention",
-              image: `/attention/thumbnail.webp`,
+              image: assetPath("attention/thumbnail.webp"),
     },
     {
       id: 3,
@@ -38,7 +39,7 @@ function Art() {
       medium: "Multimedia",
       date: "2024",
       link: "/art/mobiusline",
-              image: `/mobius/thumbnail.webp`,
+              image: assetPath("mobius/thumbnail.webp"),
     },
     {
       id: 4,
@@ -48,7 +49,7 @@ function Art() {
       medium: "Ballpoint pen and collage",
       date: "2023",
       link: "/art/worldly",
-              image: `/worldly/thumbnail.webp`,
+              image: assetPath("worldly/thumbnail.webp"),
     },
     {
       id: 5,
@@ -57,7 +58,7 @@ function Art() {
       medium: "Ink",
       date: "2024",
       link: "/art/comfort",
-              image: `/comfort/thumbnail.webp`,
+              image: assetPath("comfort/thumbnail.webp"),
     },
     {
       id: 6,
@@ -66,12 +67,12 @@ function Art() {
       medium: "guess",
       date: "Ongoing",
       link: "/art/photography",
-              image: `/photos/thumbnail.webp`,
+              image: assetPath("photos/thumbnail.webp"),
     }
   ];
   return (
     <div className={`bg-cover bg-center p-4`} 
-    style={{ backgroundImage: "url('images/HomeBG2.webp')", backgroundPosition: "center" }}>
+     style={{ backgroundImage: `url('${assetPath("images/HomeBG2.webp")}')`, backgroundPosition: "center" }}>
     <div className="flex flex-col items-center min-h-screen font-[monospace]">
       <div><Navigation displayName="true" underline="false"/></div>
 

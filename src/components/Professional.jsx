@@ -1,4 +1,5 @@
 import Navigation from "./Navigation"
+import { assetPath } from "../utils/assets";
 
 function Professional(){
     const professionalHistory = [
@@ -12,7 +13,7 @@ function Professional(){
                 </p>
             ),
             date: "June 2026 - Present",
-            image: "/images/noom.webp"
+            image: assetPath("images/noom.webp")
         },
         {
             title: "Software Development Intern",
@@ -34,7 +35,7 @@ function Professional(){
                         here
                 </a>{"."}</p>),
             date: "May 2025 - August 2025",
-            image: "/images/Agentuity.webp"
+            image: assetPath("images/Agentuity.webp")
         },
         {
             title: "Computer Architecture and Systems Programming Course Assistant",
@@ -54,7 +55,7 @@ function Professional(){
                         here
                 </a>{".)"}</p>),
             date: "August 2024 - Present",
-            image: "/images/Stevens.webp"
+            image: assetPath("images/Stevens.webp")
         },
         {
             title: "Development Intern",
@@ -71,7 +72,7 @@ function Professional(){
                 OSHA training, as well as providing a helpful interface for administrators. 
             </p>),
             date: "May 2024 - August 2024",
-            image: "/images/Mericle.webp"
+            image: assetPath("images/Mericle.webp")
         },
         {
             title: "Research Assistant",
@@ -90,12 +91,12 @@ function Professional(){
                 using data mining and visualization techniques in Python. It was a great first professional experience,
                 and allowed me the opportunity to grow technically and professionally in a working environment. </p>),
             date: "May 2023 - May 2024",
-            image: "/images/LIINES.webp"
+            image: assetPath("images/LIINES.webp")
         }
     ]
     return(
         <div className={`bg-cover bg-center p-4`} 
-            style={{ backgroundImage: "url('images/ProfessionalBG2.webp')", backgroundPosition: "left" }}>
+            style={{ backgroundImage: `url('${assetPath("images/ProfessionalBG2.webp")}')`, backgroundPosition: "left" }}>
         <div className="flex flex-col items-center min-h-screen font-[monospace]">
             <div><Navigation displayName="true" underline="false"/></div>
             <div className="flex flex-col items-center justify-center lg:max-w-1/2 gap-4">

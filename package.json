@@ -6,6 +6,7 @@
   "scripts": {
     "predev": "node src/scripts/findImages.cjs",
     "prebuild": "node src/scripts/findImages.cjs",
+    "postbuild": "node src/scripts/preparePages.cjs",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

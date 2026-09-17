@@ -1,14 +1,15 @@
 import Navigation from "./Navigation";
+import { assetPath } from "../utils/assets";
 function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen gap-4 p-4 font-[monospace] bg-cover" 
-    style={{ backgroundImage: "url('images/HomeBG3.webp')", backgroundPosition: 'top' }}>
+     style={{ backgroundImage: `url('${assetPath("images/HomeBG3.webp")}')`, backgroundPosition: 'top' }}>
       <div><Navigation displayName="true" underline="false"/></div>
 
       <div className="grid lg:grid-cols-2 border-2 border-gray-200 bg-white/50 p-4 lg:max-w-1/2 md:max-w-1/2 gap-4">
         <img
           className="w-full border-2"
-          src="/images/me.webp"
+           src={assetPath("images/me.webp")}
         />
         <p> Hi and welcome! I'm Nick, a software developer and artist (among other things) from {" "}
           <a href="https://en.wikipedia.org/wiki/Wilkes-Barre,_Pennsylvania"
@@ -19,7 +20,7 @@ function Home() {
           My technical background includes web development, building AI agents, and systems programming. 
           I'm a problem solver and love working with new technologies. I am currently an Agentic Engineer at Noom. For more information, please see my {" "}
           <a 
-          href="/Resume.pdf"
+           href={assetPath("Resume.pdf")}
           target="_blank"
           className="text-blue-600 hover:underline">
           résumé
@@ -51,7 +52,7 @@ function Home() {
         <a className="hover:underline" target="_blank" href="https://github.com/NobbyBop">
           GitHub
         </a>
-        <a className="hover:underline" target="_blank" href="/Resume.pdf">
+         <a className="hover:underline" target="_blank" href={assetPath("Resume.pdf")}>
           Résumé
         </a>
       </div>

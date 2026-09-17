@@ -10,6 +10,7 @@ import sketchbook from "../config/sketchbook.json"
 import worldly from "../config/worldly.json"
 
 import SnavLink from "../components/SnavLink"
+import { assetPath } from "../utils/assets"
 
 export const attentionPacketConfig = {
   title: "PART TWO: THE BOOK",
@@ -20,12 +21,12 @@ export const attentionPacketConfig = {
     <p className="text-blue-600 hover:underline"><SnavLink to="/art/attention/">BACK TO MAIN PAGE</SnavLink></p>
   </>
   ),
-  imageFolder: "/attention/packet_pages/",
+  imageFolder: "attention/packet_pages/",
   showCaptions: false,
   // font:"roboto",
   headerImages: [
     {
-      src: "/attention/title.webp",
+      src: assetPath("attention/title.webp"),
       className: "lg:max-w-1/2"
     }
   ],
@@ -41,11 +42,11 @@ export const attentionParticipantsConfig = {
     <p className="text-blue-600 hover:underline"><SnavLink to="/art/attention/">BACK TO MAIN PAGE</SnavLink></p>
   </>
   ),
-  imageFolder: "/attention/participants/",
+  imageFolder: "attention/participants/",
   showCaptions: false,
   // font:"roboto",
   headerImages: [
-    { src: "/attention/title.webp", 
+    { src: assetPath("attention/title.webp"),
         className: "lg:max-w-1/2" 
     }
   ],
@@ -61,12 +62,12 @@ export const attentionPresentationConfig = {
     <p className="text-blue-600 hover:underline"><SnavLink to="/art/attention/">BACK TO MAIN PAGE</SnavLink></p>
   </>
   ),
-  imageFolder: "/attention/presentation_slides/",
+  imageFolder: "attention/presentation_slides/",
   showCaptions: false,
   // font:"roboto",
   headerImages: [
     {
-        src: "/attention/title.webp", 
+        src: assetPath("attention/title.webp"),
         className: "lg:max-w-1/2" 
     }
   ],
@@ -102,106 +103,106 @@ export const mobiusConfig = {
       <br/>
     </>
   ),
-  imageFolder: "/mobius/",
+  imageFolder: "mobius/",
   showCaptions: false,
   headerImages: [
-    { src: "/mobius/headings/Logo2.webp", className: "" },
-    { src: "/mobius/headings/croppedbeatles.webp", className: "" },
+    { src: assetPath("mobius/headings/Logo2.webp"), className: "" },
+    { src: assetPath("mobius/headings/croppedbeatles.webp"), className: "" },
   ],
   items: mobius,
   backgroundClass: "bg-center bg-repeat",
-  backgroundImageUrl: "/images/MobiusBG.webp"
+  backgroundImageUrl: assetPath("images/MobiusBG.webp")
 };
 
 export const orangeConfig = {
   title: "\"ORANGE SEASON\"",
   description: "\"ORANGE SEASON\" is a photo collection of oranges in public spaces. I rode my bike through parks, along the river, and through my neighborhood, and photographed a few oranges that I carried with me.",
-  imageFolder:"/photos/OrangeSeason/",
+  imageFolder:"photos/OrangeSeason/",
   showCaptions: false,
   items: orange,
   backgroundClass: "bg-fixed bg-center",
-  backgroundImageUrl:"/images/LandingBG_Mobile.webp"
+  backgroundImageUrl: assetPath("images/LandingBG_Mobile.webp")
 }
 
 export const photographyConfig = {
   title: "PHOTOGRAPHY",
   description: "Photos taken on a Canon PowerShot ELPH 190 IS, an old (circa 2010) digital camera, and a LUMIX ZS99.",
-  imageFolder: "/photos/",
+  imageFolder: "photos/",
   showCaptions: false,
   items: photos.reverse(),
-  backgroundImageUrl:"/images/PhotosBG2.webp",
+  backgroundImageUrl: assetPath("images/PhotosBG2.webp"),
   backgroundClass:"bg-fixed bg-center",
 };
 
 export const sketchbookConfig = {
   title: "Sketchbook",
   description: "My favorite sketches, mostly done in ballpoint pen, with some exceptions. The goal is to draw and improvise to fix mistakes.",
-  imageFolder: "/sketchbook/",
+  imageFolder: "sketchbook/",
   showCaptions: false,
   items: sketchbook,
   backgroundClass:"bg-center bg-repeat",
-  backgroundImageUrl:"/images/SketchbookBG.webp"
+  backgroundImageUrl: assetPath("images/SketchbookBG.webp")
 }
 
 export const comfortConfig = {
     title: "On Comfort...",
     description: "My initial concept, as you'll see below, was to capture the feeling of those places that we grow comfortable in, especially those that we'll never see again. A dorm room, a friend's apartment. This expanded to exploring the feeling of comfort across a range of situations. Comfortability in your own skin, comfortability in your mind, etc.",
-    imageFolder: "/comfort/",
+    imageFolder: "comfort/",
     showCaptions: true,
     items: [
         {
             id: 1,
             title: "3",
-            image: "/comfort/1.webp",
+            image: assetPath("comfort/1.webp"),
             comment: "The comfort of my college bedroom which I have since left."
         },
         {
             id: 2,
             title: ".5",
-            image: "/comfort/2.webp",
+            image: assetPath("comfort/2.webp"),
             comment: "Looking in the mirror for too long and feeling like an alien, uncomfortable in my own skin."
         },
         {
             id: 3,
             title: "Overwhelm",
-            image: "/comfort/3.webp",
+            image: assetPath("comfort/3.webp"),
             comment: "Realizing all the things you don't know about the world. How can you find comfort when you'll never know everything?"
         },
         {
             id: 4,
             title: "'Hold on' and a journal entry",
-            image: "/comfort/4.webp",
+            image: assetPath("comfort/4.webp"),
             comment: "Comfort in romantic partners who aren't in your life forever."
         },
         {
             id: 5,
             title: "Chaos/Comfort",
-            image: "/comfort/5.webp",
+            image: assetPath("comfort/5.webp"),
             comment: "Struggling to find comfort amid anxiety."
         },
         {
             id: 6,
             title: "Coping/Winning",
-            image: "/comfort/6.webp",
+            image: assetPath("comfort/6.webp"),
             comment: "The comfort of coping mechanisms, positive or not."
         },
         {
             id: 7,
             title: "Concept",
-            image: "/comfort/concept.webp",
+            image: assetPath("comfort/concept.webp"),
             comment: "My initial planning."
         }
     ],
-    backgroundImageUrl:"/images/ComfortBG.webp",
+    backgroundImageUrl:assetPath("images/ComfortBG.webp"),
     backgroundClass:"bg-center bg-repeat"
 }
 
 export const worldlyConfig = {
     title: "WORLDLY",
     description: "A zine.",
-    imageFolder: "/worldly/",
+    imageFolder: "worldly/",
     showCaptions: false,
     items: worldly,
-    backgroundImageUrl: "/images/WorldlyBG.webp",
+    backgroundImageUrl: assetPath("images/WorldlyBG.webp"),
     backgroundClass: "bg-fixed bg-center"
 }

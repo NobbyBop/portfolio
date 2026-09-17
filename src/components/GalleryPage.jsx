@@ -1,5 +1,6 @@
 import Navigation from "./Navigation";
 import { useState } from 'react'
+import { assetPath } from "../utils/assets";
 
 function GalleryPage({
   title,
@@ -63,7 +64,7 @@ function GalleryPage({
             </div>
           ))
         ) : (
-          items.map((name, index) => <img onClick={() => handleZoom(true, imageFolder+name)} className="border-2 cursor-pointer"key={index} src={`${imageFolder}${name}`} />)
+           items.map((name, index) => <img onClick={() => handleZoom(true, assetPath(imageFolder+name))} className="border-2 cursor-pointer"key={index} src={assetPath(imageFolder+name)} />)
         )}
       </div>
     </div>
