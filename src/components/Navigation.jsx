@@ -30,12 +30,6 @@ function Navigation({displayName=false, underline=true}) {
           Art
         </SnavLink>
 
-        <SnavLink
-          to="/game"
-          className={({ isActive }) => (isActive ? activeClass: inactiveClass)}
-        >
-          Game
-        </SnavLink>
       </nav>
     </>
   );

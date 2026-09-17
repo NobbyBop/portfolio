@@ -37,8 +37,6 @@ function Home() {
           <br/>
           When I'm not developing or making art, I enjoy running (I completed my first marathon in Jersey City in April 2025), playing 
           guitar, and watching sitcoms.
-          <br/>
-          I maintain and host this website myself on my Raspberry Pi, so if you see any issues, let me know!
           </p>
       </div>
 

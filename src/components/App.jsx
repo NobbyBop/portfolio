@@ -5,7 +5,6 @@ import Art from "./Art/Art";
 import Art_Attention from "./Art/Art_Attention";
 import GalleryPage from "./GalleryPage";
 import Professional from "./Professional"
-import Game from "./Game"
 import { 
   attentionPacketConfig, 
   attentionParticipantsConfig, 
@@ -35,7 +34,6 @@ function App() {
         <Route path="/art/attention/participants" element={<GalleryPage {...attentionParticipantsConfig} />} />
         <Route path="/art/mobiusline" element={<GalleryPage {...mobiusConfig} />} />
         <Route path="art/orangeseason" element={<GalleryPage {...orangeConfig}/>}/>
-        <Route path="/game" element={<Game/>}/>
       </Routes>
     </div>
   );
