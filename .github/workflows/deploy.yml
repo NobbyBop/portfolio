@@ -24,6 +24,8 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          VITE_PAGES_BASE: /
         run: npm run build
 
       - name: Publish gh-pages branch
