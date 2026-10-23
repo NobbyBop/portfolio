@@ -21,19 +21,22 @@ function Professional(){
             link: "https://agentuity.com/",
             description: 
             (
-            <p>
+            <p> 
                 In this role, I built AI agents for both external and internal use. 
                 Externally, I developed agents for training documentation purposes. 
-                Internally, I created an agent that integrated with Smartlead to receive, 
-                categorize, store, and reply to customer emails. I worked with multiple 
-                frameworks including OpenAI, Anthropic, and Vercel. A particularly interesting 
-                project I made was a "hiring manager agent" that conducted simulated conversations with 
-                applicant agents and evaluated their performance. You can view more about that {" "}
-                <a href="https://agentuity.com/blog/community-contributions-hiring-manager"
+                Internally, I created a {" "} <a href="https://github.com/agentuity/agent-crm"
                     target="_blank"
                     className="text-blue-600 hover:underline">
-                        here
-                </a>{"."}</p>),
+                        CRM agent
+                </a>{"."} that integrated with Smartlead to receive, 
+                categorize, store, and reply to customer emails. I worked with multiple 
+                frameworks including OpenAI, Anthropic, and Vercel. A particularly interesting 
+                project I made was a {" "} <a href="https://github.com/agentuity/hiringManager"
+                    target="_blank"
+                    className="text-blue-600 hover:underline">
+                        "hiring manager agent"
+                </a>{"."} that conducted simulated conversations with 
+                applicant agents and evaluated their performance. There was a blog about it but it was deleted.  :(</p>),
             date: "May 2025 - August 2025",
             image: assetPath("images/Agentuity.webp")
         },
