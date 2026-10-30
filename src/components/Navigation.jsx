@@ -29,8 +29,6 @@ function Navigation({displayName=false, underline=true}) {
         >
           Art
         </SnavLink>
-        <a href="https://computer.nicholasmirigliani.com"><span className="text-blue-600">[NEW!]</span><span className="text-gray-600 hover:underline">Nick's Computer</span></a>
-
       </nav>
     </>
   );

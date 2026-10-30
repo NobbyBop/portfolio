@@ -10,6 +10,7 @@ function Landing() {
         <h1 className="font-bold text-2xl">NICHOLAS MIRIGLIANI</h1>
         <h2 className="text-gray-600">dot com</h2>
       </div>
+      <a className="font-bold text-xl" href="https://computer.nicholasmirigliani.com"><span className="text-blue-600">[NEW!]</span><span className="text-gray-600 hover:underline">Nick's Computer</span></a>
       <Navigation underline="false"/>
     </div>
   );
