@@ -17,6 +17,7 @@ function Home() {
           className="text-blue-600 hover:underline">
             Wilkes-Barre, Pennsylvania
             </a>{". "} 
+          I have my B.S. in Computer Science with a minor in Visual Arts & Technology from Stevens Institute of Technology.
           My technical background includes web development, building AI agents, and systems programming. 
           I'm a problem solver and love working with new technologies. I am currently an Agentic Engineer at Noom. For more information, please see my {" "}
           <a 
@@ -33,7 +34,7 @@ function Home() {
             </a>{". "} 
           <br/>
           In my creative work, I mainly use pen, collage, and photography. I dabble in digital art, and as you'll see
-          I tend to work across mediums in my projects. I'm also pursing a minor in Visual Arts & Technology.
+          I tend to work across mediums in my projects.
           <br/>
           When I'm not developing or making art, I enjoy running (I completed my first marathon in Jersey City in April 2025), playing 
           guitar, and watching sitcoms.
